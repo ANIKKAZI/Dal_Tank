@@ -66,6 +66,7 @@ The deployment process involves four steps as mentioned.
 
 [1] Bacancytechnology.com. [Online]. Available: https://www.bacancytechnology.com/blog/deploy-react-app-on-netlify-using-github. [Accessed: 24-May-2023].
 [2] “Log in - Wireframe.cc Premium,” Wireframe.cc. [Online]. Available: https://wireframe.cc/pro/. [Accessed: 27-May-2023].
+[3] Looka.com. [Online]. Available: https://looka.com/dashboard. [Accessed: 27-May-2023].
 
 ## Assignment Gitlab Repository URL
 
