@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# DAL TANK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project contains the UI of a functionality for the web-application call DAL TANK.The application serves as a platform for enrtrepenuers to share their business ideas and the correspoding details. On the other hand another user type for the application are the Investors who go through the business ideas posted by the former user type and in case of their intrest they can reach out the respective entrepenuers. The UI illustrates on such page in which the Entreppenur is needed to filled the required details
 
-## Available Scripts
+- _Date Created_: 23st May, 2023
+- _Last Modification Date_: 27th May, 2023
+- _Lab URL_: <https://dal.brightspace.com/d2l/le/content/274269/viewContent/3608603/View>
+- _Git URL_: <https://git.cs.dal.ca/akazi/csci-5709-tutorials/-/tree/tutorial2?ref_type=heads>
 
-In the project directory, you can run:
+## Authors
 
-### `npm start`
+Kazi Aniketh Anum (an584274@dal.ca)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Workflow
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The workflow followed for this tuotiral uses the Gitlab repositories provided to us by the Dalhousie University and our personal Github repository. The process steps are mentioned as followed.
 
-### `npm test`
+1. I have gone ahead and created the Gitlab repository based on the format provided in the tutorial handout and the main branch of this repository will be containing the source code for our React App. After creating the reporsitory
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. On completion of the previous step we create a boiler plate ReactApp . In ordfer to create this Application we need to install Node.js in our system .Following this we create a local directory where we will create our application .We navigate to our project folder and execute the following commands.
 
-### `npm run build`
+- npx create-react-app app_name
+- cd app_name
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. On completion of Step 2 we will have the boilerplate code set for our React app . We are in the current directory of our application and we can use the following command to run this application on our local system.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. After the boiler plate application is running I have then created a react functional component called _Traction.js_
 
-### `npm run eject`
+5. The content of this functional component are three required input fields in order to caputre the traction and the progess details of the idea proposed by the Enterpenuer.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. We have two button. One button allows to navigate to the next page on succesful completion of the required fields and the other is a back button which allows the user to return to the previous screen.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. We have required validation set for the three input fields and in case the user tries to proceed without completing the required attributes then the system prompts the message of _Please fill this field_ message
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+8. Once succesfully validated that our application is running on our local system we can commit and push our changes in our remote Gitlab and Github repositories respectively.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+9. The Github repository which contains the committed code is then used to link with Netlify . We configure the Netilfy corresponding to this github repository and we set the base directory in Netlify from where it will fetch the code to create the build and run the build. Once the build is succesful then Netlify goes ahead and launches the application.
 
-## Learn More
+- _Url of the hosted application_ : <https://6471878a12cf413320a843af--iridescent-starship-36db86.netlify.app/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The deployment process involves four steps as mentioned.
 
-### Code Splitting
+1. Commit and push the code changes in the remote-repository in Github .
+2. Link the development site in Netlify with the remote-repository.
+3. Set the build configuration that is the path for the code to be built from and the build command
+4. On succesful build use the generated link to view the hosted application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Built With
 
-### Analyzing the Bundle Size
+- [React.js](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+- [CascadingStyleSheet](https://legacy.reactjs.org/docs/faq-styling.html) - Styling
+- [Netlify](https://app.netlify.com/) - Front-End built and hosted.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Sources Used
 
-### Making a Progressive Web App
+[1] Bacancytechnology.com. [Online]. Available: https://www.bacancytechnology.com/blog/deploy-react-app-on-netlify-using-github. [Accessed: 24-May-2023].
+[2] “Log in - Wireframe.cc Premium,” Wireframe.cc. [Online]. Available: https://wireframe.cc/pro/. [Accessed: 27-May-2023].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Assignment Gitlab Repository URL
 
-### Advanced Configuration
+[main] - https://git.cs.dal.ca/akazi/csci-5709-assignments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Tutorial Gitlab Repository URL
 
-### Deployment
+[tutorial2] - https://git.cs.dal.ca/akazi/csci-5709-tutorials/-/tree/tutorial2?ref_type=heads
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Group 12 Gitlab Repository URL
