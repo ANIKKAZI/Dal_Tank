@@ -28,6 +28,7 @@ const returnPrev = ()=>{
    <div className='header'></div>
     <div className='wrapper'>
     <form onSubmit={handleSubmit}>
+        <p>Describe any existing traction or progress they have made with their idea</p>
         <label className='traction-desc'>Traction Description Field *</label>
         <input type="text" 
          value={tractionDes}
