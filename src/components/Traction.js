@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import logo from '../assets/logo.JPG'
 function Traction() {
 const [tractionDes, setTractionDesc] = useState("");  
 const [tractionMetric, setTractionMetric] = useState("");  
