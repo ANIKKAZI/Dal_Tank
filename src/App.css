@@ -1,0 +1,39 @@
+*{
+  background-color: rgb(32 48 100);
+}
+.header{
+  background-image: url("../src/assets/logo.JPG");
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  height: 400px;
+}
+form{
+  margin-top: 5%;
+  /* background-color: rgb(32 48 100); */
+  margin-left: 20%;
+  width: 50%;
+  border: 5px solid rgb(235 189 80);
+  padding: 10px;
+  display: grid;
+  border-radius: 10px;
+  color: rgb(235 189 80);
+}
+label{
+  margin: 10px;
+  /* background-color: rgb(49, 49, 116); */
+}
+input{
+  margin: 10px;
+  background-color:white;
+  border-radius: 10px;
+}
+input[type=submit],input[type=button]{
+  width: 25%;
+  margin-left: 40%;
+  border: 2px solid rgb(235 189 80);
+  color: rgb(235 189 80);
+  /* background-color: rgb(49, 49, 116);; */
+  background-color: rgb(32 48 100);
+  border-radius: 10px;
+}
